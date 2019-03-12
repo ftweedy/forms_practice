@@ -1,0 +1,13 @@
+Hello, your ID is "<%= @id%>" and your password is "<%= @password %>".
+<br/>
+<%= @result %>
+<br/>
+<form action="check_password" method="get">
+  <label for="userid">Enter your user id</label>
+  <input type="text" name="userid" id="userid" placeholder="userid"/>
+  <br/>
+  <label for="password">Enter your user password</label>
+  <input type="text" name="password" id="password" placeholder="password"/>
+
+  <input type="submit" value="Submit User"/>
+</form>
